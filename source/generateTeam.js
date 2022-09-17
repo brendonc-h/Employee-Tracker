@@ -36,7 +36,7 @@ module.exports = teamArray => {
         </div>
             <p class="id">ID: ${member.getId()}</p>
             <p>Email: <span><a href="mailto:${member.getEmail()}">${member.getEmail()}</a></span></p>
-            <p>GitHub: <span><a href="https://gitgub.com/${member.getGitHub()}" target="_blank">https://github.com/${member.getGitHub()}</a></span></p>
+            <p>GitHub: <span><a href="https://github.com/${member.getGitHub()}" target="_blank">https://github.com/${member.getGitHub()}</a></span></p>
         </div>
         `;
 
