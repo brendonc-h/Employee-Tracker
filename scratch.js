@@ -1,5 +1,5 @@
-const Manager = require("./lib/manager");
+// const Manager = require("./lib/manager");
 
-const dan = new Manager("dan", 42, "d@d.com", "a101");
+// const dan = new Manager("dan", 42, "d@d.com", "a101");
 
-console.log(dan.getOfficeNumber());
+// console.log(dan.getOfficeNumber());

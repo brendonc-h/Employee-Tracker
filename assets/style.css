@@ -15,7 +15,11 @@ header {
 h1 {
     padding: 10px;
 }
-
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
 
 .card-header {
     background: rgb(0, 217, 255);

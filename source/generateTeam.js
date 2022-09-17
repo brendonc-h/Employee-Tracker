@@ -11,7 +11,7 @@ module.exports = teamArray => {
         <h2 class="card-header"> ${member.getRole()}</h2>
         
         <p>ID: ${member.getId()}</p>
-        <p>Email: ${member.getEmail()}</p>
+        <p>Email: <span><a href="mailto:${member.getEmail()}">${member.getEmail()}</a></span></p>
         <p>Office: ${member.getOfficeNumber()}</p>
         </div>
         </div>
@@ -24,7 +24,7 @@ module.exports = teamArray => {
         <h2 class="card-header"> Intern</h2>
         
         <p>ID: ${member.getId()}</p>
-        <p>Email: ${member.getEmail()}</p>
+        <p>Email: <span><a href="mailto:${member.getEmail()}">${member.getEmail()}</a></span></p>
         <p>School: ${member.getSchool()}</p>
         </div>
         </div>
@@ -37,7 +37,7 @@ module.exports = teamArray => {
         <h2 class="card-header"> Engineer</h2>
         
         <p>ID: ${member.getId()}</p>
-        <p>Email: ${member.getEmail()}</p>
+        <p>Email: <span><a href="mailto:${member.getEmail()}">${member.getEmail()}</a></span></p>
         <p>GitHub: ${member.getGitHub()}</p>
         </div>
         </div>
