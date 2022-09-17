@@ -20,7 +20,7 @@ module.exports = teamArray => {
         <div class="card">
         <div class="card-header">
             <h2 class="card-header name">${member.getName()}</h2>
-            <h2 class="fas fa-user-graduate""> ${member.getRole()} </h2>
+            <h2 class="fas fa-user-graduate"> ${member.getRole()} </h2>
         </div>
             <p class="id">ID: ${member.getId()}</p>
             <p>Email: <span><a href="mailto:${member.getEmail()}">${member.getEmail()}</a></span></p>
@@ -32,7 +32,7 @@ module.exports = teamArray => {
         <div class="card">
         <div class="card-header">
             <h2 class="card-header name">${member.getName()}</h2>
-            <h2 class="fas fa-glasses""> ${member.getRole()} </h2>
+            <h2 class="fas fa-glasses"> ${member.getRole()} </h2>
         </div>
             <p class="id">ID: ${member.getId()}</p>
             <p>Email: <span><a href="mailto:${member.getEmail()}">${member.getEmail()}</a></span></p>
