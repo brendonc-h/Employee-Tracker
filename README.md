@@ -15,7 +15,7 @@ For this assignment, I created an Employee team navigator using the command line
 After answering a series of questions in the command line, the data will be pushed to a pre-styled HTML page with boxes for different employee types: Manager, Engineer and Intern. You can multiple employees for each role.
 
 
-<img width="1153" alt="Screen Shot 2022-09-18" src="/Users/brendoncurry-hobbs/Desktop/challenge10.2/Challenge-_10/Screen Shot 2022-09-17 at 2.16.15 PM.png">
+<img width="1153" alt="Screen Shot 2022-09-18" src="./assets/screenshot.png">
 
 
 Each role has different data inside of each cell. There is also icons to show what each role is.
